@@ -4,7 +4,7 @@ public class player : MonoBehaviour
 {
 
     public int numero;
-    public float velocidade = 2;
+    public float velocidade = 20;
     
     
     
@@ -16,19 +16,15 @@ public class player : MonoBehaviour
   
     void Update()
     {
-
         if (Input.GetKey(KeyCode.A))
         {
-            gameObject.transform.position += new Vector3(velocidade, 0, 0);
+           gameObject.transform.position += new Vector3(-velocidade * Time.deltaTime, 0, 0);
         }
-
+        
         if (Input.GetKey(KeyCode.D))
         {
-           
+            gameObject.transform.position += new Vector3(velocidade*  Time.deltaTime, 0, 0);
         }
-
     }
-
-
 
 }
