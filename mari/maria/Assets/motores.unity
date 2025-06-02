@@ -294,8 +294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5f381ddc01c7704790938f2746b18a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numero: 0
   velocidade: 2
+  forcaDoPulo: 4
 --- !u!1 &413505746
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,8 +471,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5f381ddc01c7704790938f2746b18a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numero: 0
   velocidade: 2
+  forcaDoPulo: 4
 --- !u!1 &437099509
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,7 +487,7 @@ GameObject:
   - component: {fileID: 437099512}
   m_Layer: 0
   m_Name: Square (1)
-  m_TagString: Untagged
+  m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 1290784362}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

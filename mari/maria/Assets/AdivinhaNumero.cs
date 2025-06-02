@@ -31,8 +31,12 @@ public class AdivinhaNumero : MonoBehaviour
         {
             DebugUtility.LogToFile("Você tem" + numeroDeTentativas + "tentativas!" );
             int numeroDigitado = numero;
-            
+
             if (numeroDigitado < sorteado)
+            {
+                //Debug.Log(Voc);
+            }
         }
-        DebugUtility.LogToFile();
+        }
+       
     }
