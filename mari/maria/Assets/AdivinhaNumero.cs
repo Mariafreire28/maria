@@ -29,14 +29,35 @@ public class AdivinhaNumero : MonoBehaviour
         //testa o numero quando aparte a tecla de espaço
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            
             DebugUtility.LogToFile("Você tem" + numeroDeTentativas + "tentativas!" );
             int numeroDigitado = numero;
 
             if (numeroDigitado < sorteado)
             {
                 //Debug.Log(Voc);
-            }
+            }Debug.Log("Muito Bixo. Tente novamente.");
+            numeroDeTentativas--;
         }
+        else if (numeroDigitado > sorteado)
+        {
+            
+            Debug.Log("Muito Alto. Tente novamente.");
+            numeroDeTentativas--;
         }
-       
+        else
+        {
+            Debug.Log("Parabéns, voce acertou!");
+        }
+
+        if (numeroDeTentativas == 0)
+        {
+            Debug.Log("Suas tentavivas acabanram. O número que pessei foi: "+sorteado);
+            oJogoEstaRodando = false;
+            
+        }
     }
+    
+}
+       
+    
