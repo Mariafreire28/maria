@@ -39,7 +39,7 @@ public class AdivinhaNumero : MonoBehaviour
             }Debug.Log("Muito Bixo. Tente novamente.");
             numeroDeTentativas--;
         }
-        else if (numeroDigitado > sorteado)
+        else if (numero > sorteado)
         {
             
             Debug.Log("Muito Alto. Tente novamente.");
