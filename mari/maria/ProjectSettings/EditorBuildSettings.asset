@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Jogos/algoritimos.unity
+    guid: cda8404d30db67f47b11c79830e54207
+  - enabled: 1
+    path: Assets/Jogos/KPOP.unity
+    guid: 32fc32b62bc89e74da008bb30a84bb2c
+  - enabled: 1
+    path: Assets/Jogos/Portal Secreto.unity
+    guid: f0261df370961904c897df83f9cf9184
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
